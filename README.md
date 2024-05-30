@@ -15,3 +15,15 @@ If you use sdkman you can configure your `.sdkmanrc` file as follows:
 java=21.0.3-tem
 maven=3.9.7
 ```
+
+# Running the application
+
+You can use maven to run the application
+```shell
+mvn exec:java
+```
+
+Alternatively you can use the JVM to run the application
+```shell
+java -jar ./target/clipboard-text-editor-1.0-SNAPSHOT.jar
+```
